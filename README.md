@@ -431,7 +431,7 @@ current shell, and any shell that reads no startup file, such as plain `bash -c`
 muxes the stream. Native NVENC is attempted on NVIDIA; otherwise encoding uses a
 readback fallback. Older GPUs and software Vulkan adapters are unsupported.
 A100, H100, H200, B200 and B300 lack the required hardware ray tracing; recency
-alone does not make a NVIDIA GPU suitable. Containers also need working NVIDIA
+alone does not make an NVIDIA GPU suitable. Containers also need working NVIDIA
 Vulkan driver discovery; passing through a GPU alone may not be sufficient.
 
 ### Mac
